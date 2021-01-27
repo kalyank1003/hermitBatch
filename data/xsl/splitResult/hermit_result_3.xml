@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="urn:absolute://harbourpolitica/ontology/"
+         xmlns:neovoc="neo4j://vocabulary#"
+         xmlns:neoind="neo4j://individuals#"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:d0="http://www.ontologydesignpatterns.org/ont/d0.owl#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:hp="urn:absolute://harbourpolitica/ontology/"
+         xmlns:dul="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:vann="http://purl.org/vocab/vann/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:cidoccrm="http://purl.org/NET/cidoc-crm/core#"
+         xmlns:wgs84pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wikidata="http://www.wikidata.org/entity/">
+   <owl:Thing rdf:about="neo4j://individuals#10">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_buildings_and_structures"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_places"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians_of_Asian_nations"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_South_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_people_107942152"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_person_100007846"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_politician_110450303"/>
+      <rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaClasses"/>
+      <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</HarbourPoliticaDataProperties>
+      <hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2014>
+      <hasCriminalcases2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2009>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">11</HarbourPoliticaDataProperties>
+      <edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">11</edbId>
+      <hasAssets2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">158877063</hasAssets2019>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">158877063</HarbourPoliticaDataProperties>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">158877063</hasAssets>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1800000</HarbourPoliticaDataProperties>
+      <hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1800000</hasLiabilities2014>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1800000</hasLiabilities>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">23274706</hasAssets>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">23274706</HarbourPoliticaDataProperties>
+      <hasAssets2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">23274706</hasAssets2009>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">2335000</HarbourPoliticaDataProperties>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">2335000</hasLiabilities>
+      <hasLiabilities2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">2335000</hasLiabilities2009>
+      <age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">48</age>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">48</HarbourPoliticaDataProperties>
+      <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">6</hasCriminalcases>
+      <hasCriminalcases2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">6</hasCriminalcases2019>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">6</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">7201904</HarbourPoliticaDataProperties>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">7201904</hasLiabilities>
+      <hasLiabilities2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">7201904</hasLiabilities2019>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">94006549</HarbourPoliticaDataProperties>
+      <hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">94006549</hasAssets2014>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">94006549</hasAssets>
+      <HarbourPoliticaDataProperties>CAN1001380</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>M.Phill [ development studies] from trinity college of Cambridge in 1995</HarbourPoliticaDataProperties>
+      <selfProfession>Member of Parliament</selfProfession>
+      <HarbourPoliticaDataProperties>https://en.wikipedia.org/wiki/Rahul_Gandhi</HarbourPoliticaDataProperties>
+      <education>M.Phill [ development studies] from trinity college of Cambridge in 1995</education>
+      <HarbourPoliticaDataProperties>Lt. Rajiv Gandhi</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>Post Graduate</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>Member of Parliament</HarbourPoliticaDataProperties>
+      <identifier>20739d52-d849-4a5f-8a64-72cae7a89504</identifier>
+      <HarbourPoliticaDataProperties>NaN</HarbourPoliticaDataProperties>
+      <spouseProfession>NaN</spouseProfession>
+      <HarbourPoliticaDataProperties>http://www.wikidata.org/entity/Q10218</HarbourPoliticaDataProperties>
+      <name>Rahul Gandhi</name>
+      <HarbourPoliticaDataProperties>WON</HarbourPoliticaDataProperties>
+      <wikidataId>http://www.wikidata.org/entity/Q10218</wikidataId>
+      <latestElectionResult>WON</latestElectionResult>
+      <hasCurrentPosition>MP</hasCurrentPosition>
+      <HarbourPoliticaDataProperties>20739d52-d849-4a5f-8a64-72cae7a89504</HarbourPoliticaDataProperties>
+      <uri>urn:absolute://harbourpolitica/ontology/Candidate/20739d52-d849-4a5f-8a64-72cae7a89504</uri>
+      <wikipediaUrl>https://en.wikipedia.org/wiki/Rahul_Gandhi</wikipediaUrl>
+      <HarbourPoliticaDataProperties>M</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>urn:absolute://harbourpolitica/ontology/Candidate/20739d52-d849-4a5f-8a64-72cae7a89504</HarbourPoliticaDataProperties>
+      <hpIdn>CAN1001380</hpIdn>
+      <careOf>Lt. Rajiv Gandhi</careOf>
+      <HarbourPoliticaDataProperties>Rahul Gandhi</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>40 New Delhi (Uttar Pradesh) constituency			, at Serial no 325  in Part no   87</HarbourPoliticaDataProperties>
+      <nameAsVoterIn>40 New Delhi (Uttar Pradesh) constituency			, at Serial no 325  in Part no   87</nameAsVoterIn>
+      <HarbourPoliticaDataProperties>MP</HarbourPoliticaDataProperties>
+      <sex>M</sex>
+      <highestDegree>Post Graduate</highestDegree>
+   </owl:Thing>
+   <owl:Thing rdf:about="neo4j://individuals#11">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_buildings_and_structures"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_places"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians_of_Asian_nations"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_South_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_people_107942152"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_person_100007846"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_politician_110450303"/>
+      <rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaClasses"/>
+      <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hasCriminalcases>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</HarbourPoliticaDataProperties>
+      <hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hasCriminalcases2014>
+      <hasAssets2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">109563378</hasAssets2009>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">109563378</HarbourPoliticaDataProperties>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">109563378</hasAssets>
+      <edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">12</edbId>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">12</HarbourPoliticaDataProperties>
+      <hasLiabilities2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">15069575</hasLiabilities2019>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">15069575</hasLiabilities>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">15069575</HarbourPoliticaDataProperties>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">16759338</hasLiabilities>
+      <hasLiabilities2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">16759338</hasLiabilities2009>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">16759338</HarbourPoliticaDataProperties>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">182861705</hasAssets>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">182861705</HarbourPoliticaDataProperties>
+      <hasAssets2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">182861705</hasAssets2019>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">197233950</hasAssets>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">197233950</HarbourPoliticaDataProperties>
+      <hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">197233950</hasAssets2014>
+      <hasCriminalcases2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">2</hasCriminalcases2009>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">2</HarbourPoliticaDataProperties>
+      <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">2</hasCriminalcases>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">22896345</HarbourPoliticaDataProperties>
+      <hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">22896345</hasLiabilities2014>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">22896345</hasLiabilities>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">4</HarbourPoliticaDataProperties>
+      <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">4</hasCriminalcases>
+      <hasCriminalcases2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">4</hasCriminalcases2019>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">68</HarbourPoliticaDataProperties>
+      <age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">68</age>
+      <selfProfession>Film Actor</selfProfession>
+      <HarbourPoliticaDataProperties>Graduate</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>MP(RS)</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>Film Actor</HarbourPoliticaDataProperties>
+      <nameAsVoterIn>89 Agra North (Uttar Pradesh) constituency			, at Serial no 547  in Part no   272</nameAsVoterIn>
+      <HarbourPoliticaDataProperties>89 Agra North (Uttar Pradesh) constituency			, at Serial no 547  in Part no   272</HarbourPoliticaDataProperties>
+      <uri>urn:absolute://harbourpolitica/ontology/Candidate/5baa8cbd-40d8-437d-a290-2e98c5b08b3e</uri>
+      <latestElectionResult>LOST</latestElectionResult>
+      <HarbourPoliticaDataProperties>urn:absolute://harbourpolitica/ontology/Candidate/5baa8cbd-40d8-437d-a290-2e98c5b08b3e</HarbourPoliticaDataProperties>
+      <hasCurrentPosition>MP(RS)</hasCurrentPosition>
+      <name>Raj Babbar</name>
+      <hpIdn>CAN1001382</hpIdn>
+      <HarbourPoliticaDataProperties>5baa8cbd-40d8-437d-a290-2e98c5b08b3e</HarbourPoliticaDataProperties>
+      <identifier>5baa8cbd-40d8-437d-a290-2e98c5b08b3e</identifier>
+      <spouseProfession>Theatre Activest and Film Actor</spouseProfession>
+      <HarbourPoliticaDataProperties>Late Sh. Kushal Babbar</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>http://www.wikidata.org/entity/Q3595480</HarbourPoliticaDataProperties>
+      <wikidataId>http://www.wikidata.org/entity/Q3595480</wikidataId>
+      <HarbourPoliticaDataProperties>https://en.wikipedia.org/wiki/Raj_Babbar</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>Theatre Activest and Film Actor</HarbourPoliticaDataProperties>
+      <sex>M</sex>
+      <HarbourPoliticaDataProperties>Raj Babbar</HarbourPoliticaDataProperties>
+      <careOf>Late Sh. Kushal Babbar</careOf>
+      <HarbourPoliticaDataProperties> Graduation from National School of Drama, New Delhi in 1974-75, Higher Secondary School from Mufid-E-Aam Higher Secondary School in 1970</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>CAN1001382</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>LOST</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>M</HarbourPoliticaDataProperties>
+      <wikipediaUrl>https://en.wikipedia.org/wiki/Raj_Babbar</wikipediaUrl>
+      <education> Graduation from National School of Drama, New Delhi in 1974-75, Higher Secondary School from Mufid-E-Aam Higher Secondary School in 1970</education>
+      <highestDegree>Graduate</highestDegree>
+   </owl:Thing>
+   <owl:Thing rdf:about="neo4j://individuals#9">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_buildings_and_structures"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_places"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians_of_Asian_nations"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_South_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_people_107942152"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_person_100007846"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_politician_110450303"/>
+      <rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaClasses"/>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasLiabilities>
+      <hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2014>
+      <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases>
+      <hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasLiabilities2014>
+      <hasCriminalcases2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2009>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</HarbourPoliticaDataProperties>
+      <edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">10</edbId>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">10</HarbourPoliticaDataProperties>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">14047833</hasAssets>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">14047833</HarbourPoliticaDataProperties>
+      <hasAssets2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">14047833</hasAssets2009>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">20081069</HarbourPoliticaDataProperties>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">20081069</hasAssets>
+      <hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">20081069</hasAssets2014>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">69</HarbourPoliticaDataProperties>
+      <age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">69</age>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">995370</hasLiabilities>
+      <hasLiabilities2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">995370</hasLiabilities2009>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">995370</HarbourPoliticaDataProperties>
+      <careOf>LT. BHARAT SING</careOf>
+      <identifier>b00ad19c-02d2-466d-95c1-5bd764c6089a</identifier>
+      <latestElectionResult>LOST</latestElectionResult>
+      <HarbourPoliticaDataProperties>Doctorate</HarbourPoliticaDataProperties>
+      <wikidataId>http://www.wikidata.org/entity/Q7119702</wikidataId>
+      <hasCurrentPosition>MP(RS)</hasCurrentPosition>
+      <HarbourPoliticaDataProperties>M</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>Pl Puniya</HarbourPoliticaDataProperties>
+      <hpIdn>CAN1001306</hpIdn>
+      <HarbourPoliticaDataProperties>urn:absolute://harbourpolitica/ontology/Candidate/b00ad19c-02d2-466d-95c1-5bd764c6089a</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>P.H.D. FROM LUCKNOW UNIVERSITY LUCKNOW IN 2003</HarbourPoliticaDataProperties>
+      <sex>M</sex>
+      <HarbourPoliticaDataProperties>https://en.wikipedia.org/wiki/P._L._Punia</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>MP(RS)</HarbourPoliticaDataProperties>
+      <uri>urn:absolute://harbourpolitica/ontology/Candidate/b00ad19c-02d2-466d-95c1-5bd764c6089a</uri>
+      <spouseProfession>HOUSE WIFE, PAINTER</spouseProfession>
+      <HarbourPoliticaDataProperties>CAN1001306</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>PENSION</HarbourPoliticaDataProperties>
+      <selfProfession>PENSION</selfProfession>
+      <wikipediaUrl>https://en.wikipedia.org/wiki/P._L._Punia</wikipediaUrl>
+      <HarbourPoliticaDataProperties>LT. BHARAT SING</HarbourPoliticaDataProperties>
+      <education>P.H.D. FROM LUCKNOW UNIVERSITY LUCKNOW IN 2003</education>
+      <nameAsVoterIn>268, BARABANKI (Uttar Pradesh) constituency			, at Serial no 776  in Part no   204</nameAsVoterIn>
+      <HarbourPoliticaDataProperties>http://www.wikidata.org/entity/Q7119702</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>268, BARABANKI (Uttar Pradesh) constituency			, at Serial no 776  in Part no   204</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>LOST</HarbourPoliticaDataProperties>
+      <highestDegree>Doctorate</highestDegree>
+      <HarbourPoliticaDataProperties>b00ad19c-02d2-466d-95c1-5bd764c6089a</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>HOUSE WIFE, PAINTER</HarbourPoliticaDataProperties>
+      <name>Pl Puniya</name>
+   </owl:Thing>
+</rdf:RDF>

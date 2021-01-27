@@ -1,0 +1,2669 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:absolute://harbourpolitica/ontology/"
+     xml:base="urn:absolute://harbourpolitica/ontology/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:hp="urn:absolute://harbourpolitica/ontology/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:neovoc="neo4j://vocabulary#"
+     xmlns:wgs84pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:d0="http://www.ontologydesignpatterns.org/ont/d0.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:dul="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:wikidata="http://www.wikidata.org/entity/"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:cidoccrm="http://purl.org/NET/cidoc-crm/core#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:neoind="neo4j://individuals#">
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/ACTIVE -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/ACTIVE">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/ACTIVE"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/AT_TIME -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/AT_TIME">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/AT_TIME"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/CONTAINS -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/CONTAINS">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/CONTAINS"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/DONATED_TO -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/DONATED_TO">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/DONATED_TO"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/ELECTORAL_OPPONENT -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/ELECTORAL_OPPONENT">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/ELECTORAL_OPPONENT"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/GOOGLE_SEARCH_VOLUME -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/GOOGLE_SEARCH_VOLUME">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/GOOGLE_SEARCH_VOLUME"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/HAS_AUTHOR -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/HAS_AUTHOR">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/HAS_AUTHOR"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/HAS_CONTESTANT -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/HAS_CONTESTANT">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/IS_CONTESTANT"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/HAS_CONTESTANT"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/HAS_CONTESTANT_PARTY -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/HAS_CONTESTANT_PARTY">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/HAS_CONTESTANT_PARTY"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/HAS_GENRE -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/HAS_GENRE">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/HAS_GENRE"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/HAS_RUNNER -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/HAS_RUNNER">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/HAS_RUNNER"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/HAS_RUNNER_PARTY -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/HAS_RUNNER_PARTY">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/HAS_RUNNER_PARTY"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/HAS_WINNER -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/HAS_WINNER">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/HAS_WINNER"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/HAS_WINNER_PARTY -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/HAS_WINNER_PARTY">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/HAS_WINNER_PARTY"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/INCUMBENT_MEMBER_OF_PARLIAMENT -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/INCUMBENT_MEMBER_OF_PARLIAMENT">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/INCUMBENT_MEMBER_OF_PARLIAMENT"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/IS_CONTESTANT -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/IS_CONTESTANT">
+        <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/HAS_CONTESTANT"/>
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/IS_CONTESTANT"/>
+            </rdf:Description>
+        </owl:inverseOf>
+        <owl:equivalentProperty>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/HAS_CONTESTANT"/>
+            </rdf:Description>
+        </owl:equivalentProperty>
+        <rdfs:subPropertyOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+            </rdf:Description>
+        </rdfs:subPropertyOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/IS_HELD_BY -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/IS_HELD_BY">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/IS_HELD_BY"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/IS_NOMINEE_OF -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/IS_NOMINEE_OF">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/IS_NOMINEE_OF"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/IS_PART_OF -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/IS_PART_OF">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/IS_PART_OF"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/IS_SIMILAR_TO -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/IS_SIMILAR_TO">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/IS_SIMILAR_TO"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/PUBLISHED_BY -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/PUBLISHED_BY">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/PUBLISHED_BY"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/SAME_AS -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/SAME_AS">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/SAME_AS"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/WIKIPAGEVIEWS_VOLUME -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/WIKIPAGEVIEWS_VOLUME">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/WIKIPAGEVIEWS_VOLUME"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/WON_ELECTION_FROM -->
+
+    <owl:ObjectProperty rdf:about="urn:absolute://harbourpolitica/ontology/WON_ELECTION_FROM">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaObjectProperties"/>
+        <owl:inverseOf>
+            <rdf:Description>
+                <owl:inverseOf rdf:resource="urn:absolute://harbourpolitica/ontology/WON_ELECTION_FROM"/>
+            </rdf:Description>
+        </owl:inverseOf>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/abreviation -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/abreviation">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/abreviationAlias -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/abreviationAlias">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/address -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/address">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/age -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/age">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/body -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/body">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/careOf -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/careOf">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/category -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/category">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/censusCode -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/censusCode">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/constituencyReservationType -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/constituencyReservationType">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/contributionAmount -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/contributionAmount">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/contributionMode -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/contributionMode">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/cosineSimilarity -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/cosineSimilarity">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/createdDate -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/createdDate">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/dateString -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/dateString">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/districtCensusCode -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/districtCensusCode">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/dob -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/dob">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/dominantReligion -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/dominantReligion">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/edbId -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/edbId">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/education -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/education">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/electors -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/electors">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/endYear -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/endYear">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/enop -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/enop">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/entityType -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/entityType">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/financialYear -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/financialYear">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/geometry -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/geometry">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/geometryType -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/geometryType">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/hasAssets -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/hasAssets">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/hasAssets2009 -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/hasAssets2009">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/hasAssets"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/hasAssets2014 -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/hasAssets2014">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/hasAssets"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/hasAssets2019 -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/hasAssets2019">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/hasAssets"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/hasCriminalcases -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/hasCriminalcases">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/hasCriminalcases2009 -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/hasCriminalcases2009">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/hasCriminalcases"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/hasCriminalcases2014 -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/hasCriminalcases2014">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/hasCriminalcases"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/hasCriminalcases2019 -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/hasCriminalcases2019">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/hasCriminalcases"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/hasCurrentPosition -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/hasCurrentPosition">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/hasLiabilities -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/hasLiabilities">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/hasLiabilities2009 -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/hasLiabilities2009">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/hasLiabilities"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/hasLiabilities2014 -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/hasLiabilities2014">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/hasLiabilities"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/hasLiabilities2019 -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/hasLiabilities2019">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/hasLiabilities"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/highestDegree -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/highestDegree">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/hindiHeartland -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/hindiHeartland">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/hpIdn -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/hpIdn">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/identifier -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/identifier">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/iou -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/iou">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/latestElectionResult -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/latestElectionResult">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/literacyRate -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/literacyRate">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/location -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/location">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/lokSabhaEletionId -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/lokSabhaEletionId">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/modifiedDate -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/modifiedDate">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/name -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/name">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/nameAlias -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/nameAlias">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/nameAsVoterIn -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/nameAsVoterIn">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/notaPercentage -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/notaPercentage">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/notaRank -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/notaRank">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/notaVotes -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/notaVotes">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/panGiven -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/panGiven">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/parliamentaryConstituency -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/parliamentaryConstituency">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/partyAbreviation -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/partyAbreviation">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/partyHoldingsLevel -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/partyHoldingsLevel">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/pcId -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/pcId">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/pcName -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/pcName">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/percentageTurnout -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/percentageTurnout">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/pincode -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/pincode">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/portfolio -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/portfolio">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/position -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/position">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/rank -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/rank">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/region -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/region">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/salience -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/salience">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/selfProfession -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/selfProfession">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/settlementType -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/settlementType">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/sex -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/sex">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/spouseProfession -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/spouseProfession">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/startYear -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/startYear">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/status -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/status">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/totalVotes -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/totalVotes">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/unionTerritory -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/unionTerritory">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/uri -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/uri">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/vector -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/vector">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/votes -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/votes">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/wikidataId -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/wikidataId">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/wikipediaUrl -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/wikipediaUrl">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/year -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/year">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/yearActive -->
+
+    <owl:DatatypeProperty rdf:about="urn:absolute://harbourpolitica/ontology/yearActive">
+        <rdfs:subPropertyOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaDataProperties"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/vocommons/voaf#Vocabulary -->
+
+    <owl:Class rdf:about="http://purl.org/vocommons/voaf#Vocabulary">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Asian_people -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Asian_people">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_places"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Ceremonial_heads_of_state -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Ceremonial_heads_of_state">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Heads_of_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Chief_ministers_of_Indian_states -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Chief_ministers_of_Indian_states">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_minister_110320863"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Civic_organizations -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Civic_organizations">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Non-profit_organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Constituencies -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Constituencies">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_constituency_108238156"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Constituencies_in_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Constituencies_in_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Constituencies"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Constituencies_of_the_Lok_Sabha -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Constituencies_of_the_Lok_Sabha">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Constituencies_in_India"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Countries -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Countries">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_country_108544813"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Countries_in_Asia -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Countries_in_Asia">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Countries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Country_subdivisions -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Country_subdivisions">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_subdivision_108674251"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Country_subdivisions_of_Asia -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Country_subdivisions_of_Asia">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Country_subdivisions"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Districts_of_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Districts_of_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_district_108552138"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Divisions_of_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Divisions_of_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_division_108213205"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Elections -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Elections">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_events"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_election_100181781"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Elections_in_Asia -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Elections_in_Asia">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Elections"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Elections_in_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Elections_in_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Elections_in_Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_English-speaking_countries_and_territories -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_English-speaking_countries_and_territories">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Germanic_countries_and_territories"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Events -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Events">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_event_100029378"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_General_elections -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_General_elections">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Elections"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_general_election_100182435"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_General_elections_in_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_General_elections_in_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Elections_in_India"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_General_elections"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Germanic_countries_and_territories -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Germanic_countries_and_territories">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Countries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Government-related_organizations -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Government-related_organizations">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Government_ministers -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Government_ministers">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_minister_110320863"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Government_ministers_of_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Government_ministers_of_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Government_ministers"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Governors_and_heads_of_sub-national_entities -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Governors_and_heads_of_sub-national_entities">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_governor_110140314"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Heads_of_government -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Heads_of_government">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_head_110162991"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Heads_of_government_in_Asia -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Heads_of_government_in_Asia">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Asian_people"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Heads_of_government"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_people"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Heads_of_state -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Heads_of_state">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_head_of_state_110164747"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Heads_of_state_in_Asia -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Heads_of_state_in_Asia">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Asian_people"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Heads_of_state"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Heads_of_state_of_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Heads_of_state_of_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Heads_of_state_in_Asia"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_people"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Hindustani-speaking_countries_and_territories -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Hindustani-speaking_countries_and_territories">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Countries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Indian_people -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Indian_people">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_South_Asian_people"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_person_100007846"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Indian_politicians -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Indian_politicians">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_people"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians_of_Asian_nations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Leaders_of_the_Lok_Sabha -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Leaders_of_the_Lok_Sabha">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Legislative_leaders_in_India"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/LokSabhaRajyaSabhaHoldings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Leaders_of_the_Rajya_Sabha -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Leaders_of_the_Rajya_Sabha">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Legislative_leaders_in_India"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/LokSabhaRajyaSabhaHoldings"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Legislative_Assembly_constituencies_of_Indian_states -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Legislative_Assembly_constituencies_of_Indian_states">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Constituencies_in_India"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Legislative_leaders -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Legislative_leaders">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_leader_109623038"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Legislative_leaders_in_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Legislative_leaders_in_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Legislative_leaders"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Legislators -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Legislators">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_legislator_110253995"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Legislators_in_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Legislators_in_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Legislators"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_people"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Member_states_of_the_Commonwealth_of_Nations -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Member_states_of_the_Commonwealth_of_Nations">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_administrative_district_108491826"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Member_states_of_the_South_Asian_Association_for_Regional_Cooperation -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Member_states_of_the_South_Asian_Association_for_Regional_Cooperation">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_administrative_district_108491826"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_National_presidents -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_National_presidents">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Presidents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Non-profit_organizations -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Non-profit_organizations">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Organisations_based_in_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Organisations_based_in_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Organizations_based_in_Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Organizations -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Organizations">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_organization_108008335"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Organizations_based_in_Asia -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Organizations_based_in_Asia">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Organized_events -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Organized_events">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Events"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_People -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_People">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_people_107942152"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_People_associated_with_buildings_and_structures -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_People_associated_with_buildings_and_structures">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_People_associated_with_places -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_People_associated_with_places">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_buildings_and_structures"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Political_events -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Political_events">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Organized_events"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Political_organisations_based_in_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Political_organisations_based_in_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Organisations_based_in_India"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Political_organizations -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Political_organizations">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Civic_organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Political_organizations_in_Asia -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Political_organizations_in_Asia">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Organizations_based_in_Asia"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_organizations"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Political_parties -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Political_parties">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Government-related_organizations"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_organizations"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_party_108256968"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Political_parties_in_Asia -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Political_parties_in_Asia">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_organizations_in_Asia"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_parties"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Political_parties_in_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Political_parties_in_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_organisations_based_in_India"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_parties_in_Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Political_people -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Political_people">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_person_100007846"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Politicians -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Politicians">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_politician_110450303"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Politicians_of_Asian_nations -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Politicians_of_Asian_nations">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Asian_people"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_people"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Presidents -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Presidents">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Heads_of_state"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_president_110467179"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Presidents_of_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Presidents_of_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Ceremonial_heads_of_state"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Heads_of_state_of_India"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_National_presidents"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Prime_Ministers_of_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Prime_Ministers_of_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Heads_of_government_in_Asia"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Prime_ministers"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Union_ministers_of_India"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Prime_ministers -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Prime_ministers">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Government_ministers"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Heads_of_government"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Socialist_states -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Socialist_states">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_administrative_district_108491826"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_South_Asian_countries -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_South_Asian_countries">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Countries_in_Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_South_Asian_people -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_South_Asian_people">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Asian_people"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_State_Assembly_elections_in_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_State_Assembly_elections_in_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Elections_in_India"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_State_governors_of_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_State_governors_of_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Governors_and_heads_of_sub-national_entities"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_State_legislators_of_Indian_States -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_State_legislators_of_Indian_States">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Legislators_in_India"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Subnational_legislators"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_States_and_territories_established_in_1947 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_States_and_territories_established_in_1947">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_administrative_district_108491826"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_States_and_territories_of_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_States_and_territories_of_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_English-speaking_countries_and_territories"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Hindustani-speaking_countries_and_territories"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Member_states_of_the_Commonwealth_of_Nations"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Member_states_of_the_South_Asian_Association_for_Regional_Cooperation"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Socialist_states"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_South_Asian_countries"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_States_and_territories_established_in_1947"/>
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Wikipedia_categories_named_after_countries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Subdivisions_of_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Subdivisions_of_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Country_subdivisions_of_Asia"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Subnational_legislators -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Subnational_legislators">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Legislators"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Union_ministers_of_India -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Union_ministers_of_India">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Government_ministers_of_India"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wikicat_Wikipedia_categories_named_after_countries -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wikicat_Wikipedia_categories_named_after_countries">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Countries"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_administrative_district_108491826 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_administrative_district_108491826">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_benefactor_109608709 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_benefactor_109608709">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_constituency_108238156 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_constituency_108238156">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_country_108544813 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_country_108544813">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_district_108552138 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_district_108552138">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_division_108213205 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_division_108213205">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_donor_110025730 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_donor_110025730">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_benefactor_109608709"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_election_100181781 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_election_100181781">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_event_100029378 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_event_100029378">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_general_election_100182435 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_general_election_100182435">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_governor_110140314 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_governor_110140314">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_head_110162991 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_head_110162991">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_head_of_state_110164747 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_head_of_state_110164747">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_leader_109623038 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_leader_109623038">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_legislator_110253995 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_legislator_110253995">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_minister_110320863 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_minister_110320863">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_organization_108008335 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_organization_108008335">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_party_108256968 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_party_108256968">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_people_107942152 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_people_107942152">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_person_100007846 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_person_100007846">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_politician_110450303 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_politician_110450303">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_president_110467179 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_president_110467179">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://yago-knowledge.org/resource/wordnet_subdivision_108674251 -->
+
+    <owl:Class rdf:about="http://yago-knowledge.org/resource/wordnet_subdivision_108674251">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- neo4j://vocabulary#owl__NamedIndividual -->
+
+    <owl:Class rdf:about="neo4j://vocabulary#owl__NamedIndividual">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/AdministrativeDivisions -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/AdministrativeDivisions">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/DivionsIndia"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/AssemblyConstituency -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/AssemblyConstituency">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Legislative_Assembly_constituencies_of_Indian_states"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ElectoralDivisions"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/CabinetMinister -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/CabinetMinister">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Union_ministers_of_India"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/OfficialPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/Candidate -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/Candidate">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_politicians"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/ChiefMinister -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/ChiefMinister">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Chief_ministers_of_Indian_states"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/OfficialPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/ChristianMajorityConstituency -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/ChristianMajorityConstituency">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ParliamentaryConstituency"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/District -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/District">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Districts_of_India"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/AdministrativeDivisions"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/DivionsIndia -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/DivionsIndia">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Divisions_of_India"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/ElectionUniverse -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/ElectionUniverse">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaClasses"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/ElectionsIndia -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/ElectionsIndia">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Elections_in_India"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/ElectoralDivisions -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/ElectoralDivisions">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/DivionsIndia"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/GeneralCandidate -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/GeneralCandidate">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/GeneralConstituency -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/GeneralConstituency">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ParliamentaryConstituency"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/Governor -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/Governor">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_State_governors_of_India"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/OfficialPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/HarbourPoliticaClasses -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/HarbourPoliticaClasses">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/HindiHeartland -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/HindiHeartland">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/LinguisticDivisions"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/StateAndUnionTerritory"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/HindiHeartlandCandidate -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/HindiHeartlandCandidate">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/HindiHeartlandConstituency -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/HindiHeartlandConstituency">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ParliamentaryConstituency"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/HindiHeartlandMP -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/HindiHeartlandMP">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/LokSabha"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/HinduMajorityConstituency -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/HinduMajorityConstituency">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ParliamentaryConstituency"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/LegislatureIndia -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/LegislatureIndia">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Legislators_in_India"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/LinguisticDivisions -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/LinguisticDivisions">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/DivionsIndia"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/LokSabha -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/LokSabha">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ParliamentOfIndia"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/LokSabhaElection -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/LokSabhaElection">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_General_elections_in_India"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionsIndia"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/LokSabhaRajyaSabhaHoldings -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/LokSabhaRajyaSabhaHoldings">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/OfficialPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/MinisterOfState -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/MinisterOfState">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Union_ministers_of_India"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/OfficialPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/MixedRelegiousConstituency -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/MixedRelegiousConstituency">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ParliamentaryConstituency"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/MuslimMajorityConstituency -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/MuslimMajorityConstituency">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ParliamentaryConstituency"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/NationalParty -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/NationalParty">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/Party"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/NonRecognizedParty -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/NonRecognizedParty">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/Party"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/OfficialPosition -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/OfficialPosition">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/ParliamentOfIndia -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/ParliamentOfIndia">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/LegislatureIndia"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/ParliamentaryConstituency -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/ParliamentaryConstituency">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Constituencies_of_the_Lok_Sabha"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ElectoralDivisions"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/Party -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/Party">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_parties_in_India"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/PartyHoldings -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/PartyHoldings">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/PoliticalDonor -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/PoliticalDonor">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wordnet_donor_110025730"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/PresidentOfIndia -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/PresidentOfIndia">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Presidents_of_India"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/OfficialPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/PrimeMinsiterOfIndia -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/PrimeMinsiterOfIndia">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Prime_Ministers_of_India"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/OfficialPosition"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/RajyaSabha -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/RajyaSabha">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ParliamentOfIndia"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/RegionalParty -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/RegionalParty">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/Party"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/RuralCandidate -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/RuralCandidate">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/RuralConstituency -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/RuralConstituency">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ParliamentaryConstituency"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/ScheduledCasteCandidate -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/ScheduledCasteCandidate">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/ScheduledCasteConstituency -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/ScheduledCasteConstituency">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ParliamentaryConstituency"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/ScheduledCasteMP -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/ScheduledCasteMP">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/LokSabha"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/ScheduledTribeCandidate -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/ScheduledTribeCandidate">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/ScheduledTribeConstituency -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/ScheduledTribeConstituency">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ParliamentaryConstituency"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/ScheduledTribeMP -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/ScheduledTribeMP">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/LokSabha"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/SikhMajorityConstituency -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/SikhMajorityConstituency">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ParliamentaryConstituency"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/StateAndUnionTerritory -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/StateAndUnionTerritory">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_States_and_territories_of_India"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/AdministrativeDivisions"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/StateLegislature -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/StateLegislature">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_State_legislators_of_Indian_States"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/LegislatureIndia"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/SubDistrict -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/SubDistrict">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_Subdivisions_of_India"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/AdministrativeDivisions"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/UnionTerritory -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/UnionTerritory">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/StateAndUnionTerritory"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/UrbanCandidate -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/UrbanCandidate">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/UrbanConstituency -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/UrbanConstituency">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ParliamentaryConstituency"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/UrbanRuralCandidate -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/UrbanRuralCandidate">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/UrbanRuralConstituency -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/UrbanRuralConstituency">
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ParliamentaryConstituency"/>
+    </owl:Class>
+    
+
+
+    <!-- urn:absolute://harbourpolitica/ontology/VidhanSabhaElection -->
+
+    <owl:Class rdf:about="urn:absolute://harbourpolitica/ontology/VidhanSabhaElection">
+        <rdfs:subClassOf rdf:resource="http://yago-knowledge.org/resource/wikicat_State_Assembly_elections_in_India"/>
+        <rdfs:subClassOf rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionsIndia"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- neo4j://individuals#6 -->
+
+    <owl:Thing rdf:about="neo4j://individuals#6">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Asian_people"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_people"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_politicians"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_buildings_and_structures"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_places"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_people"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians_of_Asian_nations"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_South_Asian_people"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_people_107942152"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_person_100007846"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_politician_110450303"/>
+        <rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+        <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+        <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+        <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaClasses"/>
+        <hasLiabilities2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasLiabilities2019>
+        <hasCriminalcases2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2019>
+        <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasLiabilities>
+        <hasCriminalcases2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2009>
+        <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases>
+        <hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2014>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">100000</HarbourPoliticaDataProperties>
+        <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">100000</hasLiabilities>
+        <hasLiabilities2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">100000</hasLiabilities2009>
+        <hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">104788960</hasAssets2014>
+        <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">104788960</hasAssets>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">104788960</HarbourPoliticaDataProperties>
+        <hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">11500000</hasLiabilities2014>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">11500000</HarbourPoliticaDataProperties>
+        <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">11500000</hasLiabilities>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">295474005</HarbourPoliticaDataProperties>
+        <hasAssets2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">295474005</hasAssets2019>
+        <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">295474005</hasAssets>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">39975893</HarbourPoliticaDataProperties>
+        <hasAssets2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">39975893</hasAssets2009>
+        <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">39975893</hasAssets>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">55</HarbourPoliticaDataProperties>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">55</age>
+        <edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">7</edbId>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">7</HarbourPoliticaDataProperties>
+        <latestElectionResult>LOST</latestElectionResult>
+        <HarbourPoliticaDataProperties>CAN1001099</HarbourPoliticaDataProperties>
+        <identifier>55341cbe-a9fd-4bad-ad08-f0d7e7342496</identifier>
+        <HarbourPoliticaDataProperties>65 Kushinagar  (Uttar Pradesh) constituency			, at Serial no 51  in Part no   285</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>Late Chandra Pratap Narayan Singh</HarbourPoliticaDataProperties>
+        <name>Kunwer Ratanjit Pratap Narayan Singh</name>
+        <sex>M</sex>
+        <HarbourPoliticaDataProperties> B.A. (Hons.) History from Sent Stephen College New Delhi in 1985, Inter in 1982, High School in 1980 from Doon School</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>55341cbe-a9fd-4bad-ad08-f0d7e7342496</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>Graduate</HarbourPoliticaDataProperties>
+        <education> B.A. (Hons.) History from Sent Stephen College New Delhi in 1985, Inter in 1982, High School in 1980 from Doon School</education>
+        <selfProfession>Agriculture</selfProfession>
+        <nameAsVoterIn>65 Kushinagar  (Uttar Pradesh) constituency			, at Serial no 51  in Part no   285</nameAsVoterIn>
+        <HarbourPoliticaDataProperties>Journalist</HarbourPoliticaDataProperties>
+        <spouseProfession>Journalist</spouseProfession>
+        <HarbourPoliticaDataProperties>Kunwer Ratanjit Pratap Narayan Singh</HarbourPoliticaDataProperties>
+        <uri>urn:absolute://harbourpolitica/ontology/Candidate/55341cbe-a9fd-4bad-ad08-f0d7e7342496</uri>
+        <highestDegree>Graduate</highestDegree>
+        <HarbourPoliticaDataProperties>M</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>LOST</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>urn:absolute://harbourpolitica/ontology/Candidate/55341cbe-a9fd-4bad-ad08-f0d7e7342496</HarbourPoliticaDataProperties>
+        <careOf>Late Chandra Pratap Narayan Singh</careOf>
+        <hasCurrentPosition>Ex-Cabinet Minister</hasCurrentPosition>
+        <HarbourPoliticaDataProperties>Ex-Cabinet Minister</HarbourPoliticaDataProperties>
+        <hpIdn>CAN1001099</hpIdn>
+        <HarbourPoliticaDataProperties>Agriculture</HarbourPoliticaDataProperties>
+    </owl:Thing>
+    
+
+
+    <!-- neo4j://individuals#7 -->
+
+    <owl:Thing rdf:about="neo4j://individuals#7">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Asian_people"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_people"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_politicians"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_buildings_and_structures"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_places"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_people"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians_of_Asian_nations"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_South_Asian_people"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_people_107942152"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_person_100007846"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_politician_110450303"/>
+        <rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+        <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+        <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+        <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaClasses"/>
+        <hasLiabilities2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasLiabilities2009>
+        <hasLiabilities2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasLiabilities2019>
+        <hasCriminalcases2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2019>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</HarbourPoliticaDataProperties>
+        <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasLiabilities>
+        <hasCriminalcases2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2009>
+        <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases>
+        <hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2014>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1114000</HarbourPoliticaDataProperties>
+        <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1114000</hasLiabilities>
+        <hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1114000</hasLiabilities2014>
+        <hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">26489505</hasAssets2014>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">26489505</HarbourPoliticaDataProperties>
+        <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">26489505</hasAssets>
+        <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">33359734</hasAssets>
+        <hasAssets2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">33359734</hasAssets2019>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">33359734</HarbourPoliticaDataProperties>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">62</age>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">62</HarbourPoliticaDataProperties>
+        <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">7982422</hasAssets>
+        <hasAssets2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">7982422</hasAssets2009>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">7982422</HarbourPoliticaDataProperties>
+        <edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">8</edbId>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">8</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>Sudhakar</HarbourPoliticaDataProperties>
+        <name>Mahendra Nath Pandey</name>
+        <sex>M</sex>
+        <identifier>d8b98dcb-45d5-4a21-87b4-b93120f20b11</identifier>
+        <careOf>Sudhakar</careOf>
+        <hpIdn>CAN1001135</hpIdn>
+        <selfProfession>Agricuture, Parliamentary allowance, Rent</selfProfession>
+        <nameAsVoterIn>374-Saidpur (Uttar Pradesh) constituency			, at Serial no 542  in Part no   128</nameAsVoterIn>
+        <HarbourPoliticaDataProperties>d8b98dcb-45d5-4a21-87b4-b93120f20b11</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>CAN1001135</HarbourPoliticaDataProperties>
+        <hasCurrentPosition>MP</hasCurrentPosition>
+        <highestDegree>Doctorate</highestDegree>
+        <HarbourPoliticaDataProperties>374-Saidpur (Uttar Pradesh) constituency			, at Serial no 542  in Part no   128</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>MP</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>Doctorate</HarbourPoliticaDataProperties>
+        <latestElectionResult>WON</latestElectionResult>
+        <HarbourPoliticaDataProperties>M</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>Mahendra Nath Pandey</HarbourPoliticaDataProperties>
+        <spouseProfession>House Wife, Rent</spouseProfession>
+        <uri>urn:absolute://harbourpolitica/ontology/Candidate/d8b98dcb-45d5-4a21-87b4-b93120f20b11</uri>
+        <HarbourPoliticaDataProperties>urn:absolute://harbourpolitica/ontology/Candidate/d8b98dcb-45d5-4a21-87b4-b93120f20b11</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties> P.H.D. (Hindi) in 1983, M.A. in 1979, B.J. in 1986, M.J. in 1987 from K.H.V.V Varanasi</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>House Wife, Rent</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>Agricuture, Parliamentary allowance, Rent</HarbourPoliticaDataProperties>
+        <education> P.H.D. (Hindi) in 1983, M.A. in 1979, B.J. in 1986, M.J. in 1987 from K.H.V.V Varanasi</education>
+        <HarbourPoliticaDataProperties>WON</HarbourPoliticaDataProperties>
+    </owl:Thing>
+    
+
+
+    <!-- neo4j://individuals#8 -->
+
+    <owl:Thing rdf:about="neo4j://individuals#8">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Asian_people"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_people"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_politicians"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_buildings_and_structures"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_places"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_people"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians_of_Asian_nations"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_South_Asian_people"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_people_107942152"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_person_100007846"/>
+        <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_politician_110450303"/>
+        <rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+        <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+        <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+        <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaClasses"/>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</HarbourPoliticaDataProperties>
+        <hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasLiabilities2014>
+        <hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2014>
+        <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases>
+        <hasCriminalcases2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2009>
+        <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasLiabilities>
+        <hasCriminalcases2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hasCriminalcases2019>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</HarbourPoliticaDataProperties>
+        <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hasCriminalcases>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">159671544</HarbourPoliticaDataProperties>
+        <hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">159671544</hasAssets2014>
+        <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">159671544</hasAssets>
+        <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">205604593</hasAssets>
+        <hasAssets2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">205604593</hasAssets2019>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">205604593</HarbourPoliticaDataProperties>
+        <hasLiabilities2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">22055657</hasLiabilities2019>
+        <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">22055657</hasLiabilities>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">22055657</HarbourPoliticaDataProperties>
+        <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">22399320</hasAssets>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">22399320</HarbourPoliticaDataProperties>
+        <hasAssets2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">22399320</hasAssets2009>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">243842</HarbourPoliticaDataProperties>
+        <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">243842</hasLiabilities>
+        <hasLiabilities2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">243842</hasLiabilities2009>
+        <age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">79</age>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">79</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">9</HarbourPoliticaDataProperties>
+        <edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">9</edbId>
+        <HarbourPoliticaDataProperties>19b76c6d-6489-4b0b-ad4c-70ee9c01a92c</HarbourPoliticaDataProperties>
+        <name>Mulayam Singh Yadav</name>
+        <HarbourPoliticaDataProperties>CAN1001233</HarbourPoliticaDataProperties>
+        <latestElectionResult>WON</latestElectionResult>
+        <selfProfession>Agriculture &amp; Public Interest</selfProfession>
+        <uri>urn:absolute://harbourpolitica/ontology/Candidate/19b76c6d-6489-4b0b-ad4c-70ee9c01a92c</uri>
+        <HarbourPoliticaDataProperties>urn:absolute://harbourpolitica/ontology/Candidate/19b76c6d-6489-4b0b-ad4c-70ee9c01a92c</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>MP</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>Agriculture &amp; Public Interest</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>House Wife</HarbourPoliticaDataProperties>
+        <highestDegree>Post Graduate</highestDegree>
+        <identifier>19b76c6d-6489-4b0b-ad4c-70ee9c01a92c</identifier>
+        <HarbourPoliticaDataProperties>M</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>Post Graduate</HarbourPoliticaDataProperties>
+        <hasCurrentPosition>MP</hasCurrentPosition>
+        <HarbourPoliticaDataProperties>WON</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>M.A. (Political Science) From Agra University in 1968 &amp; B.T. From Agra University in 1964</HarbourPoliticaDataProperties>
+        <education>M.A. (Political Science) From Agra University in 1968 &amp; B.T. From Agra University in 1964</education>
+        <spouseProfession>House Wife</spouseProfession>
+        <sex>M</sex>
+        <nameAsVoterIn>199 Jaswant Nagar (Uttar Pradesh) constituency			, at Serial no 518 in Part no 228</nameAsVoterIn>
+        <hpIdn>CAN1001233</hpIdn>
+        <careOf>Shri Sughar Singh</careOf>
+        <HarbourPoliticaDataProperties>Shri Sughar Singh</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>199 Jaswant Nagar (Uttar Pradesh) constituency			, at Serial no 518 in Part no 228</HarbourPoliticaDataProperties>
+        <HarbourPoliticaDataProperties>Mulayam Singh Yadav</HarbourPoliticaDataProperties>
+    </owl:Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.10-SNAPSHOT) http://owlapi.sourceforge.net -->
+

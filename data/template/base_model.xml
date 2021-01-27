@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:absolute://harbourpolitica/ontology/"
+     xml:base="urn:absolute://harbourpolitica/ontology/"
+	 xmlns:neovoc="neo4j://vocabulary#"
+     xmlns:neoind="neo4j://individuals#"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:d0="http://www.ontologydesignpatterns.org/ont/d0.owl#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:hp="urn:absolute://harbourpolitica/ontology/"
+     xmlns:dul="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:prov="http://www.w3.org/ns/prov#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:dcterms="http://purl.org/dc/terms/"
+     xmlns:cidoccrm="http://purl.org/NET/cidoc-crm/core#"
+     xmlns:wgs84pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+     xmlns:wikidata="http://www.wikidata.org/entity/">
+    
+	 
+ </rdf:RDF>

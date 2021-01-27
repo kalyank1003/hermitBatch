@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="urn:absolute://harbourpolitica/ontology/"
+         xmlns:neovoc="neo4j://vocabulary#"
+         xmlns:neoind="neo4j://individuals#"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:d0="http://www.ontologydesignpatterns.org/ont/d0.owl#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:hp="urn:absolute://harbourpolitica/ontology/"
+         xmlns:dul="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:vann="http://purl.org/vocab/vann/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:cidoccrm="http://purl.org/NET/cidoc-crm/core#"
+         xmlns:wgs84pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wikidata="http://www.wikidata.org/entity/">
+   <owl:Thing rdf:about="neo4j://individuals#15">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_buildings_and_structures"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_places"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians_of_Asian_nations"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_South_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_people_107942152"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_person_100007846"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_politician_110450303"/>
+      <rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaClasses"/>
+      <hasCriminalcases2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2009>
+      <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</HarbourPoliticaDataProperties>
+      <hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2014>
+      <hasAssets2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">11866846</hasAssets2009>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">11866846</HarbourPoliticaDataProperties>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">11866846</hasAssets>
+      <edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">16</edbId>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">16</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">17918014</HarbourPoliticaDataProperties>
+      <hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">17918014</hasAssets2014>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">17918014</hasAssets>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">51740512</HarbourPoliticaDataProperties>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">51740512</hasLiabilities>
+      <hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">51740512</hasLiabilities2014>
+      <age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">61</age>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">61</HarbourPoliticaDataProperties>
+      <hasLiabilities2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">78136524</hasLiabilities2009>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">78136524</hasLiabilities>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">78136524</HarbourPoliticaDataProperties>
+      <spouseProfession>House wife</spouseProfession>
+      <HarbourPoliticaDataProperties>Alagiri.S</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties> B.A., (English), Annamalai University, 1975</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>Former</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>M</HarbourPoliticaDataProperties>
+      <hpIdn>CAN1001914</hpIdn>
+      <education> B.A., (English), Annamalai University, 1975</education>
+      <identifier>75b39f40-fe42-46bf-ad4c-701e52883357</identifier>
+      <uri>urn:absolute://harbourpolitica/ontology/Candidate/75b39f40-fe42-46bf-ad4c-701e52883357</uri>
+      <latestElectionResult>LOST</latestElectionResult>
+      <sex>M</sex>
+      <HarbourPoliticaDataProperties>House wife</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>Graduate</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>V.Sambandham</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>LOST</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>CAN1001914</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>EX-MP</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>75b39f40-fe42-46bf-ad4c-701e52883357</HarbourPoliticaDataProperties>
+      <careOf>V.Sambandham</careOf>
+      <highestDegree>Graduate</highestDegree>
+      <HarbourPoliticaDataProperties>Bhuvanagiri (Tamil Nadu) constituency			, at Serial no 252 in Part no 211</HarbourPoliticaDataProperties>
+      <selfProfession>Former</selfProfession>
+      <name>Alagiri.S</name>
+      <HarbourPoliticaDataProperties>urn:absolute://harbourpolitica/ontology/Candidate/75b39f40-fe42-46bf-ad4c-701e52883357</HarbourPoliticaDataProperties>
+      <nameAsVoterIn>Bhuvanagiri (Tamil Nadu) constituency			, at Serial no 252 in Part no 211</nameAsVoterIn>
+      <hasCurrentPosition>EX-MP</hasCurrentPosition>
+   </owl:Thing>
+   <owl:Thing rdf:about="neo4j://individuals#16">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_buildings_and_structures"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_places"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians_of_Asian_nations"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_South_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_people_107942152"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_person_100007846"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_politician_110450303"/>
+      <rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaClasses"/>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</HarbourPoliticaDataProperties>
+      <hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2014>
+      <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1100000</hasLiabilities>
+      <hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1100000</hasLiabilities2014>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1100000</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">17</HarbourPoliticaDataProperties>
+      <edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">17</edbId>
+      <age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">51</age>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">51</HarbourPoliticaDataProperties>
+      <hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">89988340</hasAssets2014>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">89988340</hasAssets>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">89988340</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>ac113ff5-0f65-4584-aa00-661db4e40864</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>M</HarbourPoliticaDataProperties>
+      <careOf>C.T.Devaraj</careOf>
+      <identifier>ac113ff5-0f65-4584-aa00-661db4e40864</identifier>
+      <education> M.A.Public Administration,Annamalai University-2005</education>
+      <uri>urn:absolute://harbourpolitica/ontology/Candidate/ac113ff5-0f65-4584-aa00-661db4e40864</uri>
+      <spouseProfession>Business</spouseProfession>
+      <selfProfession>Business</selfProfession>
+      <HarbourPoliticaDataProperties>Business</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>C.T.Devaraj</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>ANNA NAGAR (Tamil Nadu) constituency			, at Serial no 503 in Part no 12</HarbourPoliticaDataProperties>
+      <highestDegree>Post Graduate</highestDegree>
+      <hasCurrentPosition>CONTESTANT</hasCurrentPosition>
+      <HarbourPoliticaDataProperties>CAN1001988</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>C.D. Meyyappan</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties> M.A.Public Administration,Annamalai University-2005</HarbourPoliticaDataProperties>
+      <sex>M</sex>
+      <hpIdn>CAN1001988</hpIdn>
+      <HarbourPoliticaDataProperties>Post Graduate</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>urn:absolute://harbourpolitica/ontology/Candidate/ac113ff5-0f65-4584-aa00-661db4e40864</HarbourPoliticaDataProperties>
+      <nameAsVoterIn>ANNA NAGAR (Tamil Nadu) constituency			, at Serial no 503 in Part no 12</nameAsVoterIn>
+      <name>C.D. Meyyappan</name>
+      <latestElectionResult>LOST</latestElectionResult>
+      <HarbourPoliticaDataProperties>CONTESTANT</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>LOST</HarbourPoliticaDataProperties>
+   </owl:Thing>
+   <owl:Thing rdf:about="neo4j://individuals#17">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_buildings_and_structures"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_places"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians_of_Asian_nations"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_South_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_people_107942152"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_person_100007846"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_politician_110450303"/>
+      <rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaClasses"/>
+      <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</HarbourPoliticaDataProperties>
+      <hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2014>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">18</HarbourPoliticaDataProperties>
+      <edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">18</edbId>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">2094707</hasLiabilities>
+      <hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">2094707</hasLiabilities2014>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">2094707</HarbourPoliticaDataProperties>
+      <hasAssets2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">26223393</hasAssets2019>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">26223393</HarbourPoliticaDataProperties>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">26223393</hasAssets>
+      <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">3</hasCriminalcases>
+      <hasCriminalcases2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">3</hasCriminalcases2019>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">3</HarbourPoliticaDataProperties>
+      <hasLiabilities2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">5910000</hasLiabilities2019>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">5910000</hasLiabilities>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">5910000</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">61</HarbourPoliticaDataProperties>
+      <age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">61</age>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">9313714</hasAssets>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">9313714</HarbourPoliticaDataProperties>
+      <hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">9313714</hasAssets2014>
+      <hasCurrentPosition>CONTESTANT</hasCurrentPosition>
+      <HarbourPoliticaDataProperties>b0ea047c-1067-4632-867b-2f82141eb249</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>Graduate Professional</HarbourPoliticaDataProperties>
+      <education> B.Com 1977 (Alagappa Arts Collage, Karaikudi) B.L.,1995 Bharathidhasan University Trichy.</education>
+      <HarbourPoliticaDataProperties>urn:absolute://harbourpolitica/ontology/Candidate/b0ea047c-1067-4632-867b-2f82141eb249</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>H.Raja</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>SIVAGANGA (Tamil Nadu) constituency			, at Serial no 898 in Part no 69</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>CONTESTANT</HarbourPoliticaDataProperties>
+      <identifier>b0ea047c-1067-4632-867b-2f82141eb249</identifier>
+      <uri>urn:absolute://harbourpolitica/ontology/Candidate/b0ea047c-1067-4632-867b-2f82141eb249</uri>
+      <HarbourPoliticaDataProperties>CAN1002089</HarbourPoliticaDataProperties>
+      <spouseProfession>Business</spouseProfession>
+      <HarbourPoliticaDataProperties> B.Com 1977 (Alagappa Arts Collage, Karaikudi) B.L.,1995 Bharathidhasan University Trichy.</HarbourPoliticaDataProperties>
+      <sex>M</sex>
+      <HarbourPoliticaDataProperties>M</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>Business</HarbourPoliticaDataProperties>
+      <nameAsVoterIn>SIVAGANGA (Tamil Nadu) constituency			, at Serial no 898 in Part no 69</nameAsVoterIn>
+      <name>H.Raja</name>
+      <selfProfession>Auditor</selfProfession>
+      <highestDegree>Graduate Professional</highestDegree>
+      <careOf>Hariharan</careOf>
+      <HarbourPoliticaDataProperties>Auditor</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>Hariharan</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>LOST</HarbourPoliticaDataProperties>
+      <latestElectionResult>LOST</latestElectionResult>
+      <hpIdn>CAN1002089</hpIdn>
+   </owl:Thing>
+</rdf:RDF>

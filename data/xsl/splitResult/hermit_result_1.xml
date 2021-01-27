@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="urn:absolute://harbourpolitica/ontology/"
+         xmlns:neovoc="neo4j://vocabulary#"
+         xmlns:neoind="neo4j://individuals#"
+         xmlns:cc="http://creativecommons.org/ns#"
+         xmlns:d0="http://www.ontologydesignpatterns.org/ont/d0.owl#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:hp="urn:absolute://harbourpolitica/ontology/"
+         xmlns:dul="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:vann="http://purl.org/vocab/vann/"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+         xmlns:cidoccrm="http://purl.org/NET/cidoc-crm/core#"
+         xmlns:wgs84pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+         xmlns:wikidata="http://www.wikidata.org/entity/">
+   <owl:Thing rdf:about="neo4j://individuals#3">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_buildings_and_structures"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_places"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians_of_Asian_nations"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_South_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_people_107942152"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_person_100007846"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_politician_110450303"/>
+      <rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaClasses"/>
+      <hasCriminalcases2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2009>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</HarbourPoliticaDataProperties>
+      <hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases2014>
+      <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasCriminalcases>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">101000</hasLiabilities>
+      <hasLiabilities2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">101000</hasLiabilities2009>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">101000</HarbourPoliticaDataProperties>
+      <hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">13947594</hasLiabilities2014>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">13947594</HarbourPoliticaDataProperties>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">13947594</hasLiabilities>
+      <edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">4</edbId>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">4</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">45</HarbourPoliticaDataProperties>
+      <age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">45</age>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">47044000</HarbourPoliticaDataProperties>
+      <hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">47044000</hasAssets2014>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">47044000</hasAssets>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">7472000</hasAssets>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">7472000</HarbourPoliticaDataProperties>
+      <hasAssets2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">7472000</hasAssets2009>
+      <HarbourPoliticaDataProperties>CAN1000564</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties> Matriculation from William High School, Supaul, Bihar in 1982, National trade Certificate in Electronics from Industrial Training Institute, Pusa, New Delhi in 1987</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>urn:absolute://harbourpolitica/ontology/Candidate/e8223e48-0fc9-477e-9af8-5d233d4f6a7e</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>e8223e48-0fc9-477e-9af8-5d233d4f6a7e</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>10th Pass</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>Syed Nasir Hussain</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>http://www.wikidata.org/entity/Q7660441</HarbourPoliticaDataProperties>
+      <wikipediaUrl>https://en.wikipedia.org/wiki/Syed_Shahnawaz_Hussain</wikipediaUrl>
+      <HarbourPoliticaDataProperties>Govt. Service</HarbourPoliticaDataProperties>
+      <name>Syed Shahnawaz Hussain</name>
+      <latestElectionResult>LOST</latestElectionResult>
+      <selfProfession>Social Service</selfProfession>
+      <spouseProfession>Govt. Service</spouseProfession>
+      <sex>M</sex>
+      <HarbourPoliticaDataProperties>Social Service</HarbourPoliticaDataProperties>
+      <highestDegree>10th Pass</highestDegree>
+      <nameAsVoterIn>8-Supaul, Bihar (Bihar) constituency			, at Serial no 868 in Part no 119</nameAsVoterIn>
+      <wikidataId>http://www.wikidata.org/entity/Q7660441</wikidataId>
+      <education> Matriculation from William High School, Supaul, Bihar in 1982, National trade Certificate in Electronics from Industrial Training Institute, Pusa, New Delhi in 1987</education>
+      <hpIdn>CAN1000564</hpIdn>
+      <careOf>Syed Nasir Hussain</careOf>
+      <HarbourPoliticaDataProperties>https://en.wikipedia.org/wiki/Syed_Shahnawaz_Hussain</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>8-Supaul, Bihar (Bihar) constituency			, at Serial no 868 in Part no 119</HarbourPoliticaDataProperties>
+      <uri>urn:absolute://harbourpolitica/ontology/Candidate/e8223e48-0fc9-477e-9af8-5d233d4f6a7e</uri>
+      <identifier>e8223e48-0fc9-477e-9af8-5d233d4f6a7e</identifier>
+      <HarbourPoliticaDataProperties>Syed Shahnawaz Hussain</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>Ex-Cabinet Minister</HarbourPoliticaDataProperties>
+      <hasCurrentPosition>Ex-Cabinet Minister</hasCurrentPosition>
+      <HarbourPoliticaDataProperties>LOST</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>M</HarbourPoliticaDataProperties>
+   </owl:Thing>
+   <owl:Thing rdf:about="neo4j://individuals#4">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_buildings_and_structures"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_places"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians_of_Asian_nations"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_South_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_people_107942152"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_person_100007846"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_politician_110450303"/>
+      <rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaClasses"/>
+      <hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">21366668</hasAssets2014>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">21366668</hasAssets>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">21366668</HarbourPoliticaDataProperties>
+      <hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">4100000</hasLiabilities2014>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">4100000</hasLiabilities>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">4100000</HarbourPoliticaDataProperties>
+      <age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">45</age>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">45</HarbourPoliticaDataProperties>
+      <edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">5</edbId>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">5</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">7</HarbourPoliticaDataProperties>
+      <hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">7</hasCriminalcases2014>
+      <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">7</hasCriminalcases>
+      <latestElectionResult>LOST</latestElectionResult>
+      <HarbourPoliticaDataProperties>M</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>Chief Minister</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>1c2b7c0f-af21-48ee-bd6e-4ce051a82fe3</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>LOST</HarbourPoliticaDataProperties>
+      <hpIdn>CAN1000718</hpIdn>
+      <HarbourPoliticaDataProperties>http://www.wikidata.org/entity/Q59155</HarbourPoliticaDataProperties>
+      <name>Arvind Kejriwal</name>
+      <careOf>Gobind Ram Kejriwal</careOf>
+      <HarbourPoliticaDataProperties>Gobind Ram Kejriwal</HarbourPoliticaDataProperties>
+      <uri>urn:absolute://harbourpolitica/ontology/Candidate/1c2b7c0f-af21-48ee-bd6e-4ce051a82fe3</uri>
+      <HarbourPoliticaDataProperties>Govt. Service</HarbourPoliticaDataProperties>
+      <identifier>1c2b7c0f-af21-48ee-bd6e-4ce051a82fe3</identifier>
+      <HarbourPoliticaDataProperties>Arvind Kejriwal</HarbourPoliticaDataProperties>
+      <highestDegree>Graduate Professional</highestDegree>
+      <HarbourPoliticaDataProperties>B.Tech Mechanical Engineering IIT Kharagpur in 1989</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>Political Activist</HarbourPoliticaDataProperties>
+      <selfProfession>Political Activist</selfProfession>
+      <HarbourPoliticaDataProperties>urn:absolute://harbourpolitica/ontology/Candidate/1c2b7c0f-af21-48ee-bd6e-4ce051a82fe3</HarbourPoliticaDataProperties>
+      <nameAsVoterIn>40 New Delhi (Uttar Pradesh) constituency			, at Serial no 609 in Part no 111</nameAsVoterIn>
+      <HarbourPoliticaDataProperties>40 New Delhi (Uttar Pradesh) constituency			, at Serial no 609 in Part no 111</HarbourPoliticaDataProperties>
+      <hasCurrentPosition>Chief Minister</hasCurrentPosition>
+      <HarbourPoliticaDataProperties>Graduate Professional</HarbourPoliticaDataProperties>
+      <sex>M</sex>
+      <HarbourPoliticaDataProperties>https://en.wikipedia.org/wiki/Arvind_Kejriwal</HarbourPoliticaDataProperties>
+      <spouseProfession>Govt. Service</spouseProfession>
+      <wikidataId>http://www.wikidata.org/entity/Q59155</wikidataId>
+      <HarbourPoliticaDataProperties>CAN1000718</HarbourPoliticaDataProperties>
+      <education>B.Tech Mechanical Engineering IIT Kharagpur in 1989</education>
+      <wikipediaUrl>https://en.wikipedia.org/wiki/Arvind_Kejriwal</wikipediaUrl>
+   </owl:Thing>
+   <owl:Thing rdf:about="neo4j://individuals#5">
+      <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Indian_politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_buildings_and_structures"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_People_associated_with_places"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Political_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_Politicians_of_Asian_nations"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wikicat_South_Asian_people"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_people_107942152"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_person_100007846"/>
+      <rdf:type rdf:resource="http://yago-knowledge.org/resource/wordnet_politician_110450303"/>
+      <rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+      <rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/HarbourPoliticaClasses"/>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</HarbourPoliticaDataProperties>
+      <hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasLiabilities2014>
+      <hasLiabilities rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasLiabilities>
+      <hasLiabilities2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hasLiabilities2009>
+      <hasCriminalcases2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hasCriminalcases2009>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</HarbourPoliticaDataProperties>
+      <hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hasCriminalcases2014>
+      <hasCriminalcases rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hasCriminalcases>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">54475345</hasAssets>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">54475345</HarbourPoliticaDataProperties>
+      <hasAssets2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">54475345</hasAssets2009>
+      <edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">6</edbId>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">6</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">78410008</HarbourPoliticaDataProperties>
+      <hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">78410008</hasAssets2014>
+      <hasAssets rdf:datatype="http://www.w3.org/2001/XMLSchema#long">78410008</hasAssets>
+      <age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">80</age>
+      <HarbourPoliticaDataProperties rdf:datatype="http://www.w3.org/2001/XMLSchema#long">80</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>CAN1000893</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>WON</HarbourPoliticaDataProperties>
+      <sex>M</sex>
+      <spouseProfession>House Wife</spouseProfession>
+      <HarbourPoliticaDataProperties>Late Sh. Manmohan Joshi</HarbourPoliticaDataProperties>
+      <nameAsVoterIn>Varansi UP (Uttar Pradesh) constituency			, at Serial no 869 in Part no 7</nameAsVoterIn>
+      <HarbourPoliticaDataProperties>Varansi UP (Uttar Pradesh) constituency			, at Serial no 869 in Part no 7</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>M</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>6d18cd91-2812-434b-b92d-003c1289a469</HarbourPoliticaDataProperties>
+      <education> D.Phil and M.Sc (Physics) From Allahabad University, Allahabad in 1958 and 1954</education>
+      <HarbourPoliticaDataProperties>Murli Manohar Joshi</HarbourPoliticaDataProperties>
+      <careOf>Late Sh. Manmohan Joshi</careOf>
+      <highestDegree>Doctorate</highestDegree>
+      <uri>urn:absolute://harbourpolitica/ontology/Candidate/6d18cd91-2812-434b-b92d-003c1289a469</uri>
+      <hasCurrentPosition>Ex-Cabinet Minister</hasCurrentPosition>
+      <latestElectionResult>WON</latestElectionResult>
+      <HarbourPoliticaDataProperties>urn:absolute://harbourpolitica/ontology/Candidate/6d18cd91-2812-434b-b92d-003c1289a469</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties> D.Phil and M.Sc (Physics) From Allahabad University, Allahabad in 1958 and 1954</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>Doctorate</HarbourPoliticaDataProperties>
+      <HarbourPoliticaDataProperties>Ex-Cabinet Minister</HarbourPoliticaDataProperties>
+      <identifier>6d18cd91-2812-434b-b92d-003c1289a469</identifier>
+      <HarbourPoliticaDataProperties>House Wife</HarbourPoliticaDataProperties>
+      <selfProfession>Retired Teacher</selfProfession>
+      <HarbourPoliticaDataProperties>Retired Teacher</HarbourPoliticaDataProperties>
+      <hpIdn>CAN1000893</hpIdn>
+      <name>Murli Manohar Joshi</name>
+   </owl:Thing>
+</rdf:RDF>

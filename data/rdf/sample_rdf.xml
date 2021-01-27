@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:neovoc="neo4j://vocabulary#"
+	xmlns:neoind="neo4j://individuals#"
+	xmlns:cc="http://creativecommons.org/ns#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:hp="urn:absolute://harbourpolitica/ontology/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:hps="urn:absolute://harbourpolitica/ontology/StoryUniverse/"
+	xmlns:wgs84pos="http://www.w3.org/2003/01/geo/wgs84_pos#"
+	xmlns:d0="http://www.ontologydesignpatterns.org/ont/d0.owl#"
+	xmlns:dbo="http://dbpedia.org/ontology/"
+	xmlns:dbp="http://dbpedia.org/"
+	xmlns:xml="http://www.w3.org/XML/1998/namespace"
+	xmlns:dul="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"
+	xmlns:vann="http://purl.org/vocab/vann/"
+	xmlns:wikidata="http://www.wikidata.org/entity/"
+	xmlns:prov="http://www.w3.org/ns/prov#"
+	xmlns:cidoccrm="http://purl.org/NET/cidoc-crm/core#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/">
+
+<rdf:Description rdf:about="neo4j://individuals#0">
+	<hp:name>Nityanand Rai</hp:name>
+	<hp:edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hp:edbId>
+	<rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+	<hp:age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">53</hp:age>
+	<hp:hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hp:hasCriminalcases2014>
+	<hp:hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">146743540</hp:hasAssets2014>
+	<hp:hasCriminalcases2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">3</hp:hasCriminalcases2019>
+	<hp:nameAsVoterIn>21-hajipur (Bihar) constituency			, at Serial no 1035  in Part no   260</hp:nameAsVoterIn>
+	<hp:highestDegree>Graduate</hp:highestDegree>
+	<hp:wikidataId>http://www.wikidata.org/entity/Q16734872</hp:wikidataId>
+	<hp:careOf>Ganga Bishun Ray</hp:careOf>
+	<hp:wikipediaUrl>https://en.wikipedia.org/wiki/Nityanand_Rai</hp:wikipediaUrl>
+	<hp:education> B.A (Honors) from RN Collage, Hajipur, Bihar univrsity in 1986, ISC from R N Collage, hajipur in 1983, Matric from GAH School Hajipur Bihar School Patna in 1981</hp:education>
+	<hp:sex>M</hp:sex>
+	<hp:spouseProfession>Business</hp:spouseProfession>
+	<hp:identifier>07f17c57-2407-47d8-90bd-638f8cb5d485</hp:identifier>
+	<hp:hasLiabilities2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">357561</hp:hasLiabilities2019>
+	<hp:uri>urn:absolute://harbourpolitica/ontology/Candidate/07f17c57-2407-47d8-90bd-638f8cb5d485</hp:uri>
+	<hp:hpIdn>CAN1000332</hp:hpIdn>
+	<hp:hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">3965422</hp:hasLiabilities2014>
+	<hp:hasAssets2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">187007570</hp:hasAssets2019>
+	<hp:hasCurrentPosition>MP</hp:hasCurrentPosition>
+	<hp:selfProfession>Agriculture and ANIMAL HUSBANDRY</hp:selfProfession>
+	<hp:latestElectionResult>WON</hp:latestElectionResult>
+	<rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+	<rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="neo4j://individuals#1">
+	<hp:age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">58</hp:age>
+	<hp:sex>M</hp:sex>
+	<hp:uri>urn:absolute://harbourpolitica/ontology/Candidate/b4567289-44dd-471a-9037-e8e2b31e064c</hp:uri>
+	<hp:identifier>b4567289-44dd-471a-9037-e8e2b31e064c</hp:identifier>
+	<hp:edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">2</hp:edbId>
+	<hp:hasCriminalcases2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hp:hasCriminalcases2019>
+	<hp:hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">62545997</hp:hasAssets2014>
+	<hp:highestDegree>Post Graduate</hp:highestDegree>
+	<hp:wikipediaUrl>https://en.wikipedia.org/wiki/Rajiv_Pratap_Rudy</hp:wikipediaUrl>
+	<hp:name>Rajiv Pratap Rudy</hp:name>
+	<hp:hasCurrentPosition>MP</hp:hasCurrentPosition>
+	<hp:latestElectionResult>WON</hp:latestElectionResult>
+	<hp:hasAssets2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">24586315</hp:hasAssets2009>
+	<rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+	<rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+	<hp:hasLiabilities2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hp:hasLiabilities2019>
+	<rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+	<hp:hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hp:hasCriminalcases2014>
+	<hp:wikidataId>http://www.wikidata.org/entity/Q3634892</hp:wikidataId>
+	<hp:hasCriminalcases2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hp:hasCriminalcases2009>
+	<hp:careOf>Late Vishwa Nath  Singh</hp:careOf>
+	<hp:selfProfession>Social Service &amp; Aviator</hp:selfProfession>
+	<hp:spouseProfession>Social Service &amp; House Wife</hp:spouseProfession>
+	<hp:hpIdn>CAN1000410</hp:hpIdn>
+	<hp:hasLiabilities2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">552076</hp:hasLiabilities2009>
+	<hp:education> M.A. (Eco) From Magadh University,Bodh Gaya in 1987 &amp; LLB From Punjab University, Chandigarh, Year-1985</hp:education>
+	<hp:nameAsVoterIn>120 Amnour (Bihar) constituency			, at Serial no 488  in Part no   27</hp:nameAsVoterIn>
+	<hp:hasAssets2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">80740349</hp:hasAssets2019>
+	<hp:hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1008658</hp:hasLiabilities2014>
+</rdf:Description>
+
+<rdf:Description rdf:about="neo4j://individuals#2">
+	<hp:hasLiabilities2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">17695194</hp:hasLiabilities2019>
+	<rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+	<hp:hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">81242965</hp:hasAssets2014>
+	<hp:hasCriminalcases2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">5</hp:hasCriminalcases2019>
+	<hp:edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">3</hp:edbId>
+	<hp:spouseProfession>Social Service , Public representative</hp:spouseProfession>
+	<hp:sex>F</hp:sex>
+	<hp:highestDegree>12th Pass</hp:highestDegree>
+	<hp:hasAssets2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1537688</hp:hasAssets2009>
+	<hp:name>Ranjeet Ranjan</hp:name>
+	<hp:hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hp:hasLiabilities2014>
+	<hp:wikipediaUrl>https://en.wikipedia.org/wiki/Ranjeet_Ranjan</hp:wikipediaUrl>
+	<hp:nameAsVoterIn>08 Supaul (Bihar) constituency			, at Serial no 358 in Part no 102</hp:nameAsVoterIn>
+	<hp:hasAssets2019 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">119543561</hp:hasAssets2019>
+	<hp:education> Intermediate , Pass From J.D Womens College Patna In 1991</hp:education>
+	<hp:careOf>Rajesh Ranjan Urf Pappu Yadav</hp:careOf>
+	<hp:hasLiabilities2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hp:hasLiabilities2009>
+	<hp:age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">46</hp:age>
+	<hp:latestElectionResult>LOST</hp:latestElectionResult>
+	<hp:hpIdn>CAN1000451</hp:hpIdn>
+	<hp:hasCurrentPosition>EX-MP</hp:hasCurrentPosition>
+	<hp:hasCriminalcases2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hp:hasCriminalcases2009>
+	<hp:identifier>585eb589-cd0c-42a1-9a1d-349af509af5e</hp:identifier>
+	<hp:wikidataId>http://www.wikidata.org/entity/Q7293123</hp:wikidataId>
+	<hp:selfProfession>Social Service , Public representative</hp:selfProfession>
+	<rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+	<rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+	<hp:hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">5</hp:hasCriminalcases2014>
+	<hp:uri>urn:absolute://harbourpolitica/ontology/Candidate/585eb589-cd0c-42a1-9a1d-349af509af5e</hp:uri>
+</rdf:Description>
+
+<rdf:Description rdf:about="neo4j://individuals#3">
+	<hp:hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">13947594</hp:hasLiabilities2014>
+	<hp:sex>M</hp:sex>
+	<hp:hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hp:hasCriminalcases2014>
+	<hp:identifier>e8223e48-0fc9-477e-9af8-5d233d4f6a7e</hp:identifier>
+	<hp:latestElectionResult>LOST</hp:latestElectionResult>
+	<hp:uri>urn:absolute://harbourpolitica/ontology/Candidate/e8223e48-0fc9-477e-9af8-5d233d4f6a7e</hp:uri>
+	<hp:hpIdn>CAN1000564</hp:hpIdn>
+	<hp:hasCurrentPosition>Ex-Cabinet Minister</hp:hasCurrentPosition>
+	<hp:name>Syed Shahnawaz Hussain</hp:name>
+	<hp:hasAssets2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">7472000</hp:hasAssets2009>
+	<hp:edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">4</hp:edbId>
+	<rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+	<hp:nameAsVoterIn>8-Supaul, Bihar (Bihar) constituency			, at Serial no 868 in Part no 119</hp:nameAsVoterIn>
+	<hp:selfProfession>Social Service</hp:selfProfession>
+	<rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+	<hp:hasLiabilities2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">101000</hp:hasLiabilities2009>
+	<hp:age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">45</hp:age>
+	<rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+	<hp:wikipediaUrl>https://en.wikipedia.org/wiki/Syed_Shahnawaz_Hussain</hp:wikipediaUrl>
+	<hp:spouseProfession>Govt. Service</hp:spouseProfession>
+	<hp:wikidataId>http://www.wikidata.org/entity/Q7660441</hp:wikidataId>
+	<hp:hasCriminalcases2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hp:hasCriminalcases2009>
+	<hp:hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">47044000</hp:hasAssets2014>
+	<hp:education> Matriculation from William High School, Supaul, Bihar in 1982, National trade Certificate in Electronics from Industrial Training Institute, Pusa, New Delhi in 1987</hp:education>
+	<hp:highestDegree>10th Pass</hp:highestDegree>
+	<hp:careOf>Syed Nasir Hussain</hp:careOf>
+</rdf:Description>
+
+<rdf:Description rdf:about="neo4j://individuals#4">
+	<rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+	<hp:wikidataId>http://www.wikidata.org/entity/Q59155</hp:wikidataId>
+	<hp:name>Arvind Kejriwal</hp:name>
+	<hp:hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">4100000</hp:hasLiabilities2014>
+	<hp:sex>M</hp:sex>
+	<hp:uri>urn:absolute://harbourpolitica/ontology/Candidate/1c2b7c0f-af21-48ee-bd6e-4ce051a82fe3</hp:uri>
+	<hp:latestElectionResult>LOST</hp:latestElectionResult>
+	<hp:age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">45</hp:age>
+	<hp:edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">5</hp:edbId>
+	<hp:highestDegree>Graduate Professional</hp:highestDegree>
+	<rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+	<hp:identifier>1c2b7c0f-af21-48ee-bd6e-4ce051a82fe3</hp:identifier>
+	<hp:careOf>Gobind Ram Kejriwal</hp:careOf>
+	<hp:hasCurrentPosition>Chief Minister</hp:hasCurrentPosition>
+	<hp:selfProfession>Political Activist</hp:selfProfession>
+	<hp:hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">21366668</hp:hasAssets2014>
+	<hp:hpIdn>CAN1000718</hp:hpIdn>
+	<hp:wikipediaUrl>https://en.wikipedia.org/wiki/Arvind_Kejriwal</hp:wikipediaUrl>
+	<hp:spouseProfession>Govt. Service</hp:spouseProfession>
+	<rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+	<hp:education>B.Tech Mechanical Engineering IIT Kharagpur in 1989</hp:education>
+	<hp:nameAsVoterIn>40 New Delhi (Uttar Pradesh) constituency			, at Serial no 609 in Part no 111</hp:nameAsVoterIn>
+	<hp:hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">7</hp:hasCriminalcases2014>
+</rdf:Description>
+
+<rdf:Description rdf:about="neo4j://individuals#5">
+	<rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/Candidate"/>
+	<rdf:type rdf:resource="neo4j://vocabulary#owl__NamedIndividual"/>
+	<hp:hasCriminalcases2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hp:hasCriminalcases2009>
+	<hp:hasLiabilities2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hp:hasLiabilities2009>
+	<hp:hasCriminalcases2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">1</hp:hasCriminalcases2014>
+	<hp:age rdf:datatype="http://www.w3.org/2001/XMLSchema#long">80</hp:age>
+	<hp:sex>M</hp:sex>
+	<hp:careOf>Late Sh. Manmohan Joshi</hp:careOf>
+	<hp:selfProfession>Retired Teacher</hp:selfProfession>
+	<hp:spouseProfession>House Wife</hp:spouseProfession>
+	<hp:hasCurrentPosition>Ex-Cabinet Minister</hp:hasCurrentPosition>
+	<hp:name>Murli Manohar Joshi</hp:name>
+	<hp:identifier>6d18cd91-2812-434b-b92d-003c1289a469</hp:identifier>
+	<hp:education> D.Phil and M.Sc (Physics) From Allahabad University, Allahabad in 1958 and 1954</hp:education>
+	<hp:hpIdn>CAN1000893</hp:hpIdn>
+	<hp:edbId rdf:datatype="http://www.w3.org/2001/XMLSchema#long">6</hp:edbId>
+	<hp:highestDegree>Doctorate</hp:highestDegree>
+	<hp:nameAsVoterIn>Varansi UP (Uttar Pradesh) constituency			, at Serial no 869 in Part no 7</hp:nameAsVoterIn>
+	<rdf:type rdf:resource="urn:absolute://harbourpolitica/ontology/ElectionUniverse"/>
+	<hp:latestElectionResult>WON</hp:latestElectionResult>
+	<hp:uri>urn:absolute://harbourpolitica/ontology/Candidate/6d18cd91-2812-434b-b92d-003c1289a469</hp:uri>
+	<hp:hasLiabilities2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">0</hp:hasLiabilities2014>
+	<hp:hasAssets2009 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">54475345</hp:hasAssets2009>
+	<hp:hasAssets2014 rdf:datatype="http://www.w3.org/2001/XMLSchema#long">78410008</hp:hasAssets2014>
+</rdf:Description>
+</rdf:RDF>
